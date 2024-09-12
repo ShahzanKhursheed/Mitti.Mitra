@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.main{
+    background-image: url(https://terra-droneagri.com/wp-content/uploads/2024/03/fertilizer.jpeg);
+    background-position: center center;
+    background-size: (1000px,100vw);
+    height: 80vh;
+    position: relative;
+}   
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    /* opacity light hone ke liye */ 
+    opacity: 0.67;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+#intro{
+    font-size : 50px;
+    font-family: fantasy;
+    position: relative;
+    top: 204px;
+    /* z-index bg se bahar laane ke liey */
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(249, 236, 236);
+    height: 78px;
+}
+.hero span{
+    font-style: oblique;
+    font-size: 30px;
+    color: rgb(245, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    position: relative;
+    top: 354px;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4c2462 rgb(86, 174, 172);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(233, 237, 248);
+    box-shadow: 50px 10px 30px rgba(0, 0, 0, 0.575);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #323030;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #020203;
+    border-radius: 4px;
+    color: #0f0a0a;
+    font-style: italic;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+    width: 240px;
+    height: 30px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    cursor: crosshair;
+    font-size: larger;
+
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 20px;
+    color: #28a745;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    
+}
+
+footer a {
+    color: #00d5ff;
+}
+ 
