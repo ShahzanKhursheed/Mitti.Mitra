@@ -1,10 +1,7 @@
 * {
-    box-sizing: border-box;
-}
-*{
-    padding: 0;
     margin: 0;
-    
+    padding: 0;
+    box-sizing: border-box;
 }
 .main{
     background-image: url(https://terra-droneagri.com/wp-content/uploads/2024/03/fertilizer.jpeg);
@@ -48,80 +45,79 @@
     top: 354px;
     height: 100%;
 }
-
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #4c2462 rgb(86, 174, 172);
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
 }
 
 .container {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 600px;
+    margin: auto;
     padding: 20px;
-    background-color: rgb(233, 237, 248);
-    box-shadow: 50px 10px 30px rgba(0, 0, 0, 0.575);
+    background-color: white;
+    box-shadow: 50 10 30px rgb(4, 2, 2);
 }
 
-h1, h2 {
+h1 {
     text-align: center;
-    color: #333;
-    
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 label {
-    display: block;
-    margin: 10px 0 5px;
-    color: #323030;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 input {
-    width: 100%;
+    margin-bottom: 10px;
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #020203;
+    font-size: 16px;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    color: #0f0a0a;
+    color: rgb(242, 100, 6);
+    background-color: #97fdfb40;
+    border: solid black;
     font-style: italic;
 }
 
 button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    left: 50px;
-    width: 240px;
-    height: 30px;
+    padding: 10px;
     background-color: #28a745;
     color: white;
     border: none;
-    border-radius: 24px;
-    cursor: crosshair;
-    font-size: larger;
-
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
     background-color: #218838;
 }
 
-#result {
+#output {
     margin-top: 20px;
-    color: #28a745;
+    color: #030303;
+}
+#fertilizerForm {
+    box-shadow:30px 10px 30px black;
 }
 
-footer {
-    text-align: center;
-    margin-top: 30px;
+#fertilizerSuggestions p {
+    background-color: #e9ecef;
     padding: 10px;
-    background-color: #333;
-    color: white;
-    
+    margin-bottom: 5px;
+    border-radius: 4px;
+    color: #28a745;
+    font-style: italic;
 }
 
-footer a {
-    color: #00d5ff;
+h2 {
+    margin-bottom: 10px;
 }
- 
